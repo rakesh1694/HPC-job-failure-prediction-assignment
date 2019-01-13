@@ -15,7 +15,9 @@ Train an ML model to predict whether a job is going to fail or not given their c
 
 # Evaluation 
 
-Maximize balanced accuracy: balanced accuracy is defined as the average accuracy of positive and negative classes. Here is a sample code to calculate balanced accuracy in Python.
+Maximize balanced accuracy: balanced accuracy is defined as the average accuracy of positive and negative classes. Negative class means job is successful, positive class means job has failed. 
+
+Here is a sample code to calculate balanced accuracy in Python.
 ```
 from sklearn.metrics import confusion_matrix
 CM = confusion_matrix(y_ground_truth, y_model_prediction)
