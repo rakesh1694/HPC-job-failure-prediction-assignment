@@ -7,7 +7,7 @@ memory_GB: memory usage in GB
 network_log10_MBps: network usage rate in MBps in log scale
 local_IO_log10_MBps: total (read+write) local I/O rate in MBps in log scale
 NFS_IO_log10_MBps: total parallel file system I/O rate in MBps in log scale
-failed: 1 -> failed, 2 -> successful
+failed: 1 -> failed, 0 -> successful
 ```
 
 # Problem
